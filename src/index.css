@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fffaf2;
+  color: #3b2414;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #f59e0b;
+  color: white;
+}
+
+.container-custom {
+  width: min(1180px, calc(100% - 32px));
+  margin: auto;
+}
+
+
+.section-padding {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+
+.gold-text {
+  background: linear-gradient(
+    90deg,
+    #b45309,
+    #f59e0b,
+    #b45309
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Keep section headings visible below the fixed navigation bar. */
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #d97706;
+  outline-offset: 3px;
+}

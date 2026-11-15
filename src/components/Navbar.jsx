@@ -25,7 +25,9 @@ function Navbar() {
           </div>
 
           <div>
-            <span className="block font-bold text-lg">Baglamukhi Mata Mandir</span>
+            <span className="block font-bold text-lg">
+              Baglamukhi Mata Mandir
+            </span>
 
             <p className="text-xs text-amber-700">Hawan & Anushthan</p>
           </div>
@@ -46,16 +48,16 @@ function Navbar() {
 
         {/* Desktop Social Buttons */}
         <div className="hidden lg:flex items-center gap-3">
-          {/* Instagram */}
+          {/* Facebook */}
           <a
-            href="https://www.instagram.com/Bagla_marg_official/"
+            href="https://www.facebook.com/share/1fjrHHkDAq/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Visit our Instagram"
-            className="flex items-center gap-2 px-3 py-2.5 rounded-full border border-pink-200 text-pink-600 font-semibold hover:bg-pink-50 transition"
+            aria-label="Visit our Facebook page"
+            className="flex items-center gap-2 px-3 py-2.5 rounded-full border border-blue-200 text-blue-700 font-semibold hover:bg-blue-50 transition"
           >
-            <span className="text-lg">📸</span>
-            Instagram
+            <span className="text-lg font-bold">f</span>
+            Facebook
           </a>
 
           {/* WhatsApp */}
@@ -95,15 +97,16 @@ function Navbar() {
             ))}
 
             {/* Instagram Mobile Link */}
+            {/* Facebook Mobile Link */}
             <a
-              href="https://www.instagram.com/Bagla_marg_official/"
+              href="https://www.facebook.com/share/1fjrHHkDAq/"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setOpen(false)}
-              className="flex items-center gap-3 py-2 text-pink-600 font-semibold"
+              className="flex items-center gap-3 py-2 text-blue-700 font-semibold"
             >
-              <span className="text-xl">📸</span>
-              @Bagla_marg_official
+              <span className="text-xl font-bold"> Visit us on Facebook</span>
+             
             </a>
 
             {/* WhatsApp Mobile Button */}

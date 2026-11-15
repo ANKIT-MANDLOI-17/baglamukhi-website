@@ -1,4 +1,4 @@
-import {  MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 function Footer() {
   const quickLinks = [
@@ -45,13 +45,13 @@ function Footer() {
             </p>
 
             <a
-              href="https://www.instagram.com/Bagla_marg_official/"
+              href="https://www.facebook.com/share/1fjrHHkDAq/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-5 text-amber-400 hover:text-amber-300 transition"
             >
-              <span className="text-lg">📸</span>
-              Follow on Instagram
+
+              Follow on Facebook
             </a>
           </div>
 

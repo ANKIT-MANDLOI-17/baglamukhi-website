@@ -67,14 +67,14 @@ function Contact() {
               </button>
 
               <a
-                href="https://www.instagram.com/Bagla_marg_official/"
+                href="https://www.facebook.com/share/1fjrHHkDAq/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit Pandit Trilok Joshi on Instagram"
-                className="flex items-center gap-2 bg-linear-to-r from-purple-600 via-pink-500 to-orange-400 text-white px-6 py-3 rounded-full font-bold hover:opacity-90 transition"
+                aria-label="Visit Pandit Trilok Joshi on Facebook"
+                className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full font-bold hover:bg-blue-700 transition"
               >
-                <span className="text-lg">📸</span>
-                Instagram
+                <span className="text-lg font-bold">f</span>
+                Facebook
               </a>
             </div>
           </div>
